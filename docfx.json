@@ -26,7 +26,8 @@
         "files": [
           "ai-documentation/**.yml",
           "ai-documentation/**.md",
-          "toc.yml"
+          "toc.yml",
+          "*.md"
         ]
       },
       {
