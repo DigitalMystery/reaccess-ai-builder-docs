@@ -1,7 +1,7 @@
 # ReAccess AI Introduction
 The AI Documentation is meant to help both the user and AI to build out an Excel file which is used to create a new ReAccess app.
 
-To create an importable XML document that ReAccess can consume there must be three tabs in teh Excel Document.  
+To create an importable Excel document that ReAccess can consume there must be three tabs in the Document.  
 Tabs:
 Application
 Forms
