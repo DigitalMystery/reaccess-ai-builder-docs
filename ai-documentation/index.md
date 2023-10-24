@@ -3,20 +3,17 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
 
 ## Steps
 
-1.  To create an importable Excel document that ReAccess can consume there must be three tabs in the Document.  
+1.  Create an importable Excel document that ReAccess can consume.  
 
-    Tabs:
-    1.  Application
-    2.  Forms
-    3.  Controls
+    To do this you must first create an Excel document normally with the Application Name as the document name.  The document should contain three tabs.
 
+2.  Create three tabs within the Excel document labeled Application, Forms, Controls
 
-2.  For the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  
-    Also, tags are seperated by  semicolons.  If an icon is not provided, use "Home" as the default.
+3.  On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  
+    Also, tags are seperated by semicolons.  If an icon is not provided, use "Home" as the default.
 
-    Application Tab Columns:
-    1.  Name*
-    2.  HomePageContent
-    3.  Tags*
-    4.  Description*
-    5.  Icon
+Application Tab Columns:
+
+| Name*       | HomePageContent  | Tags*  | Description*    | Icon   |
+| ----------- | ---------------- | ------ | --------------- | ------ |
+ 
