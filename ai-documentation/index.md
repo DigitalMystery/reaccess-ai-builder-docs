@@ -10,8 +10,13 @@ Controls
 For the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use "Home" as the default.
 
 Application Tab Columns:
+
 Name*
+
 HomePageContent
+
 Tags*
+
 Description*
+
 Icon
