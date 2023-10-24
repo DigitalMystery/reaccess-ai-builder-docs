@@ -5,7 +5,7 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
 
 1.  Create an importable Excel document that ReAccess can consume.  
 
-    To do this you must first create an Excel document normally with the Application Name as the document name.  The document should contain three tabs.
+    To do this you must first create an Excel document normally with the Application Name as the document name.
 
 2.  Create three tabs within the Excel document labeled Application, Forms, Controls
 
