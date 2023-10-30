@@ -63,6 +63,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "ai-documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ai-documentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "ai-documentation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
