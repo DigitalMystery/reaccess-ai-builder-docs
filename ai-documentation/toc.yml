@@ -1,13 +1,13 @@
-# - name: AI Documentation
-#   href: index.md
-  items:
-    - name: Excel Output
-      href: excel.md
-    - name: Application
-      href: application.md
-    - name: Forms
-      href: forms.md
-    - name: Controls
-      href: controls.md
-    - name: Tabs
-      href: tabs.md
+- name: AI Documentation
+  href: index.md
+  # items:
+  #   - name: Excel Output
+  #     href: excel.md
+  #   - name: Application
+  #     href: application.md
+  #   - name: Forms
+  #     href: forms.md
+  #   - name: Controls
+  #     href: controls.md
+  #   - name: Tabs
+  #     href: tabs.md

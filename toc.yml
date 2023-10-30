@@ -1,7 +1,7 @@
 - name: Overview
   href: index.md
 - name: AI Documentation
-  href: ai-documentation/toc.yml
+  href: ai-documentation/index.md
   # items:
   #   - name: Excel Output
   #     href: ai-documentation/excel.md
