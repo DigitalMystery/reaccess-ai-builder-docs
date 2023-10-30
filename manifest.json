@@ -14,10 +14,50 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "ai-documentation/controls.md",
+      "output": {
+        ".html": {
+          "relative_path": "ai-documentation/controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ai-documentation/excel.md",
+      "output": {
+        ".html": {
+          "relative_path": "ai-documentation/excel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ai-documentation/forms.md",
+      "output": {
+        ".html": {
+          "relative_path": "ai-documentation/forms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "ai-documentation/index.md",
       "output": {
         ".html": {
           "relative_path": "ai-documentation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ai-documentation/tabs.md",
+      "output": {
+        ".html": {
+          "relative_path": "ai-documentation/tabs.html"
         }
       },
       "version": ""
@@ -66,9 +106,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
