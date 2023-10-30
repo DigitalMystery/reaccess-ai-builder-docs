@@ -1,5 +1,7 @@
 # ReAccess AI Introduction
-The AI Documentation is meant to help both the user and AI to build out an Excel file which is used to create a new ReAccess app.
+Something will go here if the other works fine.
+<!-- The AI Documentation is meant to help both the user and AI to build out an Excel file which is used to create a new ReAccess app. -->
+<!-- use reaccess appbuilder
 
 ## Steps
 
@@ -12,8 +14,11 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
 3.  On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  
     Also, tags are seperated by semicolons.  If an icon is not provided, use "Home" as the default.
 
-Application Tab Columns:
+    Application Tab Columns:
 
-| Name*       | HomePageContent  | Tags*  | Description*    | Icon   |
-| ----------- | ---------------- | ------ | --------------- | ------ |
- 
+    A:  Name*
+    B:  HomePageContent
+    C   Tags*
+    D:  Description*
+    E:  Icon
+ -->

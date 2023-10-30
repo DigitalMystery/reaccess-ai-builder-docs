@@ -1,7 +1,15 @@
 - name: Overview
   href: index.md
 - name: AI Documentation
-  href: ai-documentation/
+  href: ai-documentation/index.md
   items:
-    - name: Introduction
-      href: ai-documentation/index.md
+    - name: Excel Output
+      href: ai-documentation/excel.md
+    - name: Application
+      href: ai-documentation/application.md
+    - name: Forms
+      href: ai-documentation/forms.md
+    - name: Controls
+      href: ai-documentation/controls.md
+    - name: Tabs
+      href: ai-documentation/tabs.md
