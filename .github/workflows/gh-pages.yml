@@ -18,7 +18,7 @@ jobs:
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1.x' # DocFX requires .NET Core 3.1 as of my last update
+          dotnet-version: '7.x' # DocFX requires .NET Core 3.1 as of my last update
 
       # Step 3: Build the DocFX project
       - name: Build DocFX
