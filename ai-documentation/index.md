@@ -10,7 +10,7 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
 
 2.  Create twelve tabs within the Excel document labeled Application, Forms, Form Filters, Form Row Filters, Controls, Tabs, Dropdowns, Webhooks, Rules, Grids, Grid Columns, API Keys
 
-3.  On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use "Home" as the default.
+3.  On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use "Home" as the default.  If a value is not provided for the columns "Call Webhook on Publish" or "User PowerBI Report as Home Page" use False as a default value when generatng the Excel document.
 
     Application Tab Columns:
 
@@ -42,7 +42,7 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
 
     N:  Password
 
-    O:  User Power BI as Home Page
+    O:  User PoweriI as Home Page
 
     P:  Workspace ID
 
@@ -68,7 +68,7 @@ The AI Documentation is meant to help both the user and AI to build out an Excel
     
 
 
-4.  A form is synonymous to a page inside ReAccess.  It will house the data elements you wish to collect on which are called controls.  Here we will create the Form tab data elements.  On the Forms tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use "Page" as the default.
+4.  A form is synonymous to a page inside ReAccess.  It will house the data elements you wish to collect on which are called controls.  Here we will create the Form tab data elements.  On the Forms tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use "Page" as the default.   If a value is not provided for the columns View, Insert, Update, or Delete use True as a default value when generatng the Excel document.  If a value is not provided for the columns Hide from Navigation, Execute Search On Load, or Is Self Aware use False as a default value when generatng the Excel document.  For the Data Display Name column if data is not provided use the Name column and remove any spaces from it.
 
     Form Tab Columns:
 
