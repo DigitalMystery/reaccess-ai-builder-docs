@@ -27,6 +27,7 @@
       <meta name="loc:themeAuto" content="Auto">
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
   <script type="module" src="./../public/docfx.min.js"></script>
@@ -87,7 +88,7 @@
 <li><p>Create an importable Excel document that ReAccess can consume.</p>
 <p>To do this you must first create an Excel document normally with the Application Name as the document name.</p>
 </li>
-<li><p>Create three tabs within the Excel document labeled Application, Forms, Controls</p>
+<li><p>Create twelve tabs within the Excel document labeled Application, Forms, Form Filters, Form Row Filters, Controls, Tabs, Dropdowns, Webhooks, Rules, Grids, Grid Columns, API Keys</p>
 </li>
 <li><p>On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use &quot;Home&quot; as the default.</p>
 <p>Application Tab Columns:</p>
@@ -95,7 +96,28 @@
 <p>B:  HomePageContent</p>
 <p>C   Tags*</p>
 <p>D:  Description*</p>
-<p>F:  Icon</p>
+<p>E:  Icon*</p>
+<p>F:  Report URL</p>
+<p>G:  Call Webhook on Publish</p>
+<p>H:  Webhook URL</p>
+<p>I:  Authorization Type</p>
+<p>J:  Key</p>
+<p>K:  Value</p>
+<p>L:  Add To</p>
+<p>M:  User Name</p>
+<p>N:  Password</p>
+<p>O:  User Power BI as Home Page</p>
+<p>P:  Workspace ID</p>
+<p>Q:  Report ID</p>
+<p>R:  Report with RLS?</p>
+<p>S:  Roles</p>
+<p>T:  Is Background Transparent?</p>
+<p>U:  Show Border?</p>
+<p>V:  Is Filter Visible?</p>
+<p>W:  Is Filter Expanded?</p>
+<p>X:  Is Page Navigation Visible?</p>
+<p>Y:  Height</p>
+<p>Z:  Width</p>
 </li>
 <li><p>A form is synonymous to a page inside ReAccess.  It will house the data elements you wish to collect on which are called controls.  Here we will create the Form tab data elements.  On the Forms tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use &quot;Page&quot; as the default.</p>
 <p>Form Tab Columns:</p>
@@ -110,6 +132,133 @@
 <p>I:  Integration Code</p>
 <p>J:  Sort Order*</p>
 <p>K:  Data Display Name</p>
+<p>L:  View</p>
+<p>M:  Insert</p>
+<p>N:  Update</p>
+<p>O:  Delete</p>
+<p>P:  Record Display Identifier</p>
+<p>Q:  Hide from Navigation</p>
+<p>R:  Execute Search On Load</p>
+<p>S:  Is Self Aware</p>
+<p>T:  Email Controls</p>
+</li>
+<li><p>Form filters are used throughout the application but not required.  On the Form filters tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Form Filters Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Form*</p>
+<p>C   Tags*</p>
+<p>D:  Description*</p>
+</li>
+<li><p>Form filter rows are children of form filters and they are the assingnmnets on the data to help filter.  They are not required however, if you have a form filter you should have form filter rows.  On the Form filter rows tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Form Filter Rows Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Form*</p>
+<p>C   Tags*</p>
+<p>D:  Description*</p>
+</li>
+<li><p>On the Controls tab we build out the controls/fields that will be on the form created before.  On the Controls tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Control Tab Columns:</p>
+<p>A:  Form*</p>
+<p>B:  Name*</p>
+<p>C   Scope*</p>
+<p>D:  Tags*</p>
+<p>E:  Description*</p>
+<p>F:  Control Type</p>
+<p>G:  Field Type</p>
+<p>H:  Data Source</p>
+<p>I:  Text Title</p>
+<p>J:  Text Block</p>
+<p>K:  Required</p>
+<p>L:  Unique</p>
+<p>M:  Prefix</p>
+<p>N:  Suffix</p>
+<p>O:  Tooltip</p>
+<p>P:  Tab Name*</p>
+<p>Q:  Row*</p>
+<p>R:  Column*</p>
+<p>S:  Default Value</p>
+<p>T:  Search Row</p>
+<p>U:  Search Column</p>
+<p>V:  Search Result Order</p>
+<p>W:  Default Search Value</p>
+<p>X:  Default Search Supporting Value</p>
+<p>Y:  Print Bookmark</p>
+<p>Z:  Integration Code</p>
+<p>AA: Business Rule Name</p>
+<p>AB: Data Display Name</p>
+<p>AC: View</p>
+<p>AD: Update</p>
+<p>AE: Cascading Dropdown</p>
+<p>AF: Cascading Child</p>
+<p>AG: Parent Dropdown Field</p>
+<p>AH: Cascade Grid Field</p>
+<p>AI: View of Grid Data</p>
+<p>AJ: Grid Row Unique</p>
+<p>AK: Hide Grid Add New</p>
+<p>AL: Hide Grid Add Existing</p>
+<p>AM: Grid Parent Form</p>
+<p>AN: Grid Parent Field</p>
+</li>
+<li><p>The next tab is actually called Tabs.  Tabs are required because they are used on Forms/Pages.  The Tabs tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Tab Tab Columns:</p>
+<p>A:  Form*</p>
+<p>B:  Name*</p>
+<p>C:  SortOrder*</p>
+</li>
+<li><p>The Dropdowns tab is used to configure static or form dropdowns.  They are only required if there are dropdown controls.  The Dropdowns tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Dropdown Tab Columns:</p>
+<p>A:  Form*</p>
+<p>B:  Name*</p>
+<p>C:  Type*</p>
+<p>D:  Data</p>
+<p>E:  Filter</p>
+</li>
+<li><p>The Webhooks tab is used to build out any API calls you would like made after a specific event occurs.  The Webhooks tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Webhooks Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Tags*</p>
+<p>C:  Description*</p>
+<p>D:  URL*</p>
+<p>E:  Await Return</p>
+<p>F:  Form-Event</p>
+</li>
+<li><p>The Rules tab is used for any custom rules or error messages you would like to provide.  The tab is not required.  The Rules tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Rules Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Tags*</p>
+<p>C:  Description*</p>
+<p>D:  Expression*</p>
+<p>E:  Rule Type*</p>
+<p>F:  Error Message*</p>
+</li>
+<li><p>The Grids tab is used for create grids out of a specific forms data and then be used on a Control/Field.  The tab is not required.  The Grids tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Grids Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Description*</p>
+<p>C:  Tags*</p>
+<p>D:  Form*</p>
+<p>E:  Compact</p>
+<p>F:  Header Visible</p>
+<p>G:  Items Per Page</p>
+<p>H:  Display Format {{Field Name}}*</p>
+</li>
+<li><p>The Grid Columns tab is used on by a Grid to determine what data elements from the supplied form you want shown in the grid.  The tab is not required unless you have a Grid.  The Grid Columns tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>Grid Columns Tab Columns:</p>
+<p>A:  Grid*</p>
+<p>B:  Field Name*</p>
+<p>C:  Collapsible*</p>
+<p>D:  Resizable*</p>
+<p>E:  Padded*</p>
+<p>F:  Min Width*</p>
+<p>G:  Max Width*</p>
+</li>
+<li><p>The API Keys tab is used when you want to call our API to update data from a different application.  The tab is not required.  The API Keys tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
+<p>API Keys Tab Columns:</p>
+<p>A:  Name*</p>
+<p>B:  Key*</p>
+<p>C:  Expiration Date*</p>
+<p>D:  Read Only*</p>
+<p>E:  Forms*</p>
 </li>
 </ol>
 
@@ -129,7 +278,7 @@
     </main>
 
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
