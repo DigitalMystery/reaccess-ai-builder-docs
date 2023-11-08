@@ -8,4 +8,4 @@ Create a new tab in an Excel document for each item below and include the column
 
 ### Form
 
-    | Name | Scope | Tags | Description |
+    | Name | Scope | Tags | Description | ImportData | Icon | Header | Footer | IntegrationCode | SortOrder | DataDisplayName | View | Insert | Update | Delete | RecordDisplayIdentifier | HideFromNavigation | ExecuteSearchOnLoad | IsSelfAware | EmailControls
