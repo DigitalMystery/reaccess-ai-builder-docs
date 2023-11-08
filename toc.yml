@@ -3,8 +3,8 @@
 - name: AI Documentation
   href: ai-documentation/index.md
   items:
-  #   - name: Excel Output
-  #     href: ai-documentation/excel.md
+    - name: Excel Output
+      href: ai-documentation/excel.md
     - name: Application
       href: ai-documentation/application.md
   #   - name: Forms
