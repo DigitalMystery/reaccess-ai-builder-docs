@@ -11,5 +11,5 @@
   #     href: ai-documentation/forms.md
   #   - name: Controls
   #     href: ai-documentation/controls.md
-  #   - name: Tabs
-  #     href: ai-documentation/tabs.md
+    - name: Tabs
+      href: ai-documentation/tabs.md
