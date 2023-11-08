@@ -2,11 +2,11 @@
   href: index.md
 - name: AI Documentation
   href: ai-documentation/index.md
-  # items:
+  items:
   #   - name: Excel Output
   #     href: ai-documentation/excel.md
-  #   - name: Application
-  #     href: ai-documentation/application.md
+    - name: Application
+      href: ai-documentation/application.md
   #   - name: Forms
   #     href: ai-documentation/forms.md
   #   - name: Controls
