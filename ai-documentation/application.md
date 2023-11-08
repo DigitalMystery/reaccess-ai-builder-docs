@@ -1,10 +1,8 @@
 # ReAccess AI Introduction
 
-Create a new tab in an Excel document for each step below and include the columns.
+Create a new tab in an Excel document for each item below and include the columns.
 
-## Steps
-
-1.  Application
+Tab: Application
 
     Columns:
     -   Name*
@@ -33,10 +31,9 @@ Create a new tab in an Excel document for each step below and include the column
     -   Is Page Navigation Visible?
     -   Height
     -   Width
-    
 
 
-2.  Form
+Tab: Form
 
     Columns:
     -   Name*
@@ -61,7 +58,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Email Controls
 
 
-3.  Form Filters
+Tab: Form Filters
 
     Columns:
     -   Name*
@@ -70,7 +67,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Description*
 
 
-4.  Form Filter Rows
+Tab: Form Filter Rows
 
     Columns:
     -   Name*
@@ -79,7 +76,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Description*
 
 
-5.  Controls
+Tab: Controls
 
     Columns:
     -   Form*
@@ -124,7 +121,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Grid Parent Field
 
 
-6.  Tabs
+Tab: Tabs
 
     Columns:
     -   Form*
@@ -132,7 +129,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   SortOrder*
 
 
-7.  Dropdowns
+Tab: Dropdowns
 
     Columns:
     -   Form*
@@ -142,7 +139,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Filter
 
 
-8. Webhooks
+Tab: Webhooks
 
     Columns:
     -   Name*
@@ -153,7 +150,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Form-Event
 
 
-9. Rules
+Tab: Rules
 
     Columns:
     -   Name*
@@ -164,7 +161,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Error Message*
 
 
-10. Grids
+Tab: Grids
 
     Columns:
     -   Name*
@@ -177,7 +174,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Display Format {{Field Name}}*
 
 
-11. Grid Columns
+Tab: Grid Columns
 
      Columns:
     -   Grid*
@@ -189,7 +186,7 @@ Create a new tab in an Excel document for each step below and include the column
     -   Max Width*
 
 
-12. API Keys
+Tab: API Keys
 
     Columns:
     -   Name*
