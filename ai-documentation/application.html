@@ -82,204 +82,177 @@
         <article data-uid="">
 <h1 id="reaccess-ai-introduction">ReAccess AI Introduction</h1>
 
-<p>Create a new tab in an Excel document for each step below and include the columns.</p>
-<h2 id="steps">Steps</h2>
-<ol>
-<li><p>Application</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>HomePageContent</li>
-<li>Tags*</li>
-<li>Description*</li>
-<li>Icon*</li>
-<li>Report URL</li>
-<li>Call Webhook on Publish</li>
-<li>Webhook URL</li>
-<li>Authorization Type</li>
-<li>Key</li>
-<li>Value</li>
-<li>Add To</li>
-<li>User Name</li>
-<li>Password</li>
-<li>User PoweriI as Home Page</li>
-<li>Workspace ID</li>
-<li>Report ID</li>
-<li>Report with RLS?</li>
-<li>Roles</li>
-<li>Is Background Transparent?</li>
-<li>Show Border?</li>
-<li>Is Filter Visible?</li>
-<li>Is Filter Expanded?</li>
-<li>Is Page Navigation Visible?</li>
-<li>Height</li>
-<li>Width</li>
-</ul>
-</li>
-<li><p>Form</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Scope*</li>
-<li>Tags*</li>
-<li>Description*</li>
-<li>ImportData</li>
-<li>Icon*</li>
-<li>Header</li>
-<li>Footer</li>
-<li>Integration Code</li>
-<li>Sort Order*</li>
-<li>Data Display Name</li>
-<li>View</li>
-<li>Insert</li>
-<li>Update</li>
-<li>Delete</li>
-<li>Record Display Identifier</li>
-<li>Hide from Navigation</li>
-<li>Execute Search On Load</li>
-<li>Is Self Aware</li>
-<li>Email Controls</li>
-</ul>
-</li>
-<li><p>Form Filters</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Form*</li>
-<li>Tags*</li>
-<li>Description*</li>
-</ul>
-</li>
-<li><p>Form Filter Rows</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Form*</li>
-<li>Tags*</li>
-<li>Description*</li>
-</ul>
-</li>
-<li><p>Controls</p>
-<p>Columns:</p>
-<ul>
-<li>Form*</li>
-<li>Name*</li>
-<li>Scope*</li>
-<li>Tags*</li>
-<li>Description*</li>
-<li>Control Type</li>
-<li>Field Type</li>
-<li>Data Source</li>
-<li>Text Title</li>
-<li>Text Block</li>
-<li>Required</li>
-<li>Unique</li>
-<li>Prefix</li>
-<li>Suffix</li>
-<li>Tooltip</li>
-<li>Tab Name*</li>
-<li>Row*</li>
-<li>Column*</li>
-<li>Default Value</li>
-<li>Search Row</li>
-<li>Search Column</li>
-<li>Search Result Order</li>
-<li>Default Search Value</li>
-<li>Default Search Supporting Value</li>
-<li>Print Bookmark</li>
-<li>Integration Code</li>
-<li>Business Rule Name</li>
-<li>Data Display Name</li>
-<li>View</li>
-<li>Update</li>
-<li>Cascading Dropdown</li>
-<li>Cascading Child</li>
-<li>Parent Dropdown Field</li>
-<li>Cascade Grid Field</li>
-<li>View of Grid Data</li>
-<li>Grid Row Unique</li>
-<li>Hide Grid Add New</li>
-<li>Hide Grid Add Existing</li>
-<li>Grid Parent Form</li>
-<li>Grid Parent Field</li>
-</ul>
-</li>
-<li><p>Tabs</p>
-<p>Columns:</p>
-<ul>
-<li>Form*</li>
-<li>Name*</li>
-<li>SortOrder*</li>
-</ul>
-</li>
-<li><p>Dropdowns</p>
-<p>Columns:</p>
-<ul>
-<li>Form*</li>
-<li>Name*</li>
-<li>Type*</li>
-<li>Data</li>
-<li>Filter</li>
-</ul>
-</li>
-<li><p>Webhooks</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Tags*</li>
-<li>Description*</li>
-<li>URL*</li>
-<li>Await Return</li>
-<li>Form-Event</li>
-</ul>
-</li>
-<li><p>Rules</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Tags*</li>
-<li>Description*</li>
-<li>Expression*</li>
-<li>Rule Type*</li>
-<li>Error Message*</li>
-</ul>
-</li>
-<li><p>Grids</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Description*</li>
-<li>Tags*</li>
-<li>Form*</li>
-<li>Compact</li>
-<li>Header Visible</li>
-<li>Items Per Page</li>
-<li>Display Format {{Field Name}}*</li>
-</ul>
-</li>
-<li><p>Grid Columns</p>
-<p>Columns:</p>
-<ul>
-<li>Grid*</li>
-<li>Field Name*</li>
-<li>Collapsible*</li>
-<li>Resizable*</li>
-<li>Padded*</li>
-<li>Min Width*</li>
-<li>Max Width*</li>
-</ul>
-</li>
-<li><p>API Keys</p>
-<p>Columns:</p>
-<ul>
-<li>Name*</li>
-<li>Key*</li>
-<li>Expiration Date*</li>
-<li>Read Only*</li>
-<li>Forms*</li>
-</ul>
-</li>
-</ol>
+<p>Create a new tab in an Excel document for each item below and include the columns.</p>
+<p>Tab: Application</p>
+<pre><code>Columns:
+-   Name*
+-   HomePageContent
+-   Tags*
+-   Description*
+-   Icon*
+-   Report URL
+-   Call Webhook on Publish
+-   Webhook URL
+-   Authorization Type
+-   Key
+-   Value
+-   Add To
+-   User Name
+-   Password
+-   User PoweriI as Home Page
+-   Workspace ID
+-   Report ID
+-   Report with RLS?
+-   Roles
+-   Is Background Transparent?
+-   Show Border?
+-   Is Filter Visible?
+-   Is Filter Expanded?
+-   Is Page Navigation Visible?
+-   Height
+-   Width
+</code></pre>
+<p>Tab: Form</p>
+<pre><code>Columns:
+-   Name*
+-   Scope*
+-   Tags*
+-   Description*
+-   ImportData
+-   Icon*
+-   Header
+-   Footer
+-   Integration Code
+-   Sort Order*
+-   Data Display Name
+-   View
+-   Insert
+-   Update
+-   Delete
+-   Record Display Identifier
+-   Hide from Navigation
+-   Execute Search On Load
+-   Is Self Aware
+-   Email Controls
+</code></pre>
+<p>Tab: Form Filters</p>
+<pre><code>Columns:
+-   Name*
+-   Form*
+-   Tags*
+-   Description*
+</code></pre>
+<p>Tab: Form Filter Rows</p>
+<pre><code>Columns:
+-   Name*
+-   Form*
+-   Tags*
+-   Description*
+</code></pre>
+<p>Tab: Controls</p>
+<pre><code>Columns:
+-   Form*
+-   Name*
+-   Scope*
+-   Tags*
+-   Description*
+-   Control Type
+-   Field Type
+-   Data Source
+-   Text Title
+-   Text Block
+-   Required
+-   Unique
+-   Prefix
+-   Suffix
+-   Tooltip
+-   Tab Name*
+-   Row*
+-   Column*
+-   Default Value
+-   Search Row
+-   Search Column
+-   Search Result Order
+-   Default Search Value
+-   Default Search Supporting Value
+-   Print Bookmark
+-   Integration Code
+-   Business Rule Name
+-   Data Display Name
+-   View
+-   Update
+-   Cascading Dropdown
+-   Cascading Child
+-   Parent Dropdown Field
+-   Cascade Grid Field
+-   View of Grid Data
+-   Grid Row Unique
+-   Hide Grid Add New
+-   Hide Grid Add Existing
+-   Grid Parent Form
+-   Grid Parent Field
+</code></pre>
+<p>Tab: Tabs</p>
+<pre><code>Columns:
+-   Form*
+-   Name*
+-   SortOrder*
+</code></pre>
+<p>Tab: Dropdowns</p>
+<pre><code>Columns:
+-   Form*
+-   Name*
+-   Type*
+-   Data
+-   Filter
+</code></pre>
+<p>Tab: Webhooks</p>
+<pre><code>Columns:
+-   Name*
+-   Tags*
+-   Description*
+-   URL*
+-   Await Return
+-   Form-Event
+</code></pre>
+<p>Tab: Rules</p>
+<pre><code>Columns:
+-   Name*
+-   Tags*
+-   Description*
+-   Expression*
+-   Rule Type*
+-   Error Message*
+</code></pre>
+<p>Tab: Grids</p>
+<pre><code>Columns:
+-   Name*
+-   Description*
+-   Tags*
+-   Form*
+-   Compact
+-   Header Visible
+-   Items Per Page
+-   Display Format {{Field Name}}*
+</code></pre>
+<p>Tab: Grid Columns</p>
+<pre><code> Columns:
+-   Grid*
+-   Field Name*
+-   Collapsible*
+-   Resizable*
+-   Padded*
+-   Min Width*
+-   Max Width*
+</code></pre>
+<p>Tab: API Keys</p>
+<pre><code>Columns:
+-   Name*
+-   Key*
+-   Expiration Date*
+-   Read Only*
+-   Forms*
+</code></pre>
 
 </article>
 
