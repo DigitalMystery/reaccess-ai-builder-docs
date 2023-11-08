@@ -92,173 +92,197 @@
 </li>
 <li><p>On the Application tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use &quot;Home&quot; as the default.  If a value is not provided for the columns &quot;Call Webhook on Publish&quot; or &quot;User PowerBI Report as Home Page&quot; use False as a default value when generatng the Excel document.</p>
 <p>Application Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  HomePageContent</p>
-<p>C   Tags*</p>
-<p>D:  Description*</p>
-<p>E:  Icon*</p>
-<p>F:  Report URL</p>
-<p>G:  Call Webhook on Publish</p>
-<p>H:  Webhook URL</p>
-<p>I:  Authorization Type</p>
-<p>J:  Key</p>
-<p>K:  Value</p>
-<p>L:  Add To</p>
-<p>M:  User Name</p>
-<p>N:  Password</p>
-<p>O:  User PoweriI as Home Page</p>
-<p>P:  Workspace ID</p>
-<p>Q:  Report ID</p>
-<p>R:  Report with RLS?</p>
-<p>S:  Roles</p>
-<p>T:  Is Background Transparent?</p>
-<p>U:  Show Border?</p>
-<p>V:  Is Filter Visible?</p>
-<p>W:  Is Filter Expanded?</p>
-<p>X:  Is Page Navigation Visible?</p>
-<p>Y:  Height</p>
-<p>Z:  Width</p>
+<ul>
+<li>Name*</li>
+<li>HomePageContent</li>
+<li>Tags*</li>
+<li>Description*</li>
+<li>Icon*</li>
+<li>Report URL</li>
+<li>Call Webhook on Publish</li>
+<li>Webhook URL</li>
+<li>Authorization Type</li>
+<li>Key</li>
+<li>Value</li>
+<li>Add To</li>
+<li>User Name</li>
+<li>Password</li>
+<li>User PoweriI as Home Page</li>
+<li>Workspace ID</li>
+<li>Report ID</li>
+<li>Report with RLS?</li>
+<li>Roles</li>
+<li>Is Background Transparent?</li>
+<li>Show Border?</li>
+<li>Is Filter Visible?</li>
+<li>Is Filter Expanded?</li>
+<li>Is Page Navigation Visible?</li>
+<li>Height</li>
+<li>Width</li>
+</ul>
 </li>
 <li><p>A form is synonymous to a page inside ReAccess.  It will house the data elements you wish to collect on which are called controls.  Here we will create the Form tab data elements.  On the Forms tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.  If an icon is not provided, use &quot;Page&quot; as the default.   If a value is not provided for the columns View, Insert, Update, or Delete use True as a default value when generatng the Excel document.  If a value is not provided for the columns Hide from Navigation, Execute Search On Load, or Is Self Aware use False as a default value when generatng the Excel document.  For the Data Display Name column if data is not provided use the Name column and remove any spaces from it.</p>
 <p>Form Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Scope*</p>
-<p>C   Tags*</p>
-<p>D:  Description*</p>
-<p>E:  ImportData</p>
-<p>F:  Icon*</p>
-<p>G:  Header</p>
-<p>H:  Footer</p>
-<p>I:  Integration Code</p>
-<p>J:  Sort Order*</p>
-<p>K:  Data Display Name</p>
-<p>L:  View</p>
-<p>M:  Insert</p>
-<p>N:  Update</p>
-<p>O:  Delete</p>
-<p>P:  Record Display Identifier</p>
-<p>Q:  Hide from Navigation</p>
-<p>R:  Execute Search On Load</p>
-<p>S:  Is Self Aware</p>
-<p>T:  Email Controls</p>
+<ul>
+<li>Name*</li>
+<li>Scope*</li>
+<li>Tags*</li>
+<li>Description*</li>
+<li>ImportData</li>
+<li>Icon*</li>
+<li>Header</li>
+<li>Footer</li>
+<li>Integration Code</li>
+<li>Sort Order*</li>
+<li>Data Display Name</li>
+<li>View</li>
+<li>Insert</li>
+<li>Update</li>
+<li>Delete</li>
+<li>Record Display Identifier</li>
+<li>Hide from Navigation</li>
+<li>Execute Search On Load</li>
+<li>Is Self Aware</li>
+<li>Email Controls</li>
+</ul>
 </li>
 <li><p>Form filters are used throughout the application but not required.  On the Form filters tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Form Filters Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Form*</p>
-<p>C   Tags*</p>
-<p>D:  Description*</p>
+<ul>
+<li>Name*</li>
+<li>Form*</li>
+<li>Tags*</li>
+<li>Description*</li>
+</ul>
 </li>
 <li><p>Form filter rows are children of form filters and they are the assingnmnets on the data to help filter.  They are not required however, if you have a form filter you should have form filter rows.  On the Form filter rows tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Form Filter Rows Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Form*</p>
-<p>C   Tags*</p>
-<p>D:  Description*</p>
+<ul>
+<li>Name*</li>
+<li>Form*</li>
+<li>Tags*</li>
+<li>Description*</li>
+</ul>
 </li>
 <li><p>On the Controls tab we build out the controls/fields that will be on the form created before.  On the Controls tab the document must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Control Tab Columns:</p>
-<p>A:  Form*</p>
-<p>B:  Name*</p>
-<p>C   Scope*</p>
-<p>D:  Tags*</p>
-<p>E:  Description*</p>
-<p>F:  Control Type</p>
-<p>G:  Field Type</p>
-<p>H:  Data Source</p>
-<p>I:  Text Title</p>
-<p>J:  Text Block</p>
-<p>K:  Required</p>
-<p>L:  Unique</p>
-<p>M:  Prefix</p>
-<p>N:  Suffix</p>
-<p>O:  Tooltip</p>
-<p>P:  Tab Name*</p>
-<p>Q:  Row*</p>
-<p>R:  Column*</p>
-<p>S:  Default Value</p>
-<p>T:  Search Row</p>
-<p>U:  Search Column</p>
-<p>V:  Search Result Order</p>
-<p>W:  Default Search Value</p>
-<p>X:  Default Search Supporting Value</p>
-<p>Y:  Print Bookmark</p>
-<p>Z:  Integration Code</p>
-<p>AA: Business Rule Name</p>
-<p>AB: Data Display Name</p>
-<p>AC: View</p>
-<p>AD: Update</p>
-<p>AE: Cascading Dropdown</p>
-<p>AF: Cascading Child</p>
-<p>AG: Parent Dropdown Field</p>
-<p>AH: Cascade Grid Field</p>
-<p>AI: View of Grid Data</p>
-<p>AJ: Grid Row Unique</p>
-<p>AK: Hide Grid Add New</p>
-<p>AL: Hide Grid Add Existing</p>
-<p>AM: Grid Parent Form</p>
-<p>AN: Grid Parent Field</p>
+<ul>
+<li>Form*</li>
+<li>Name*</li>
+<li>Scope*</li>
+<li>Tags*</li>
+<li>Description*</li>
+<li>Control Type</li>
+<li>Field Type</li>
+<li>Data Source</li>
+<li>Text Title</li>
+<li>Text Block</li>
+<li>Required</li>
+<li>Unique</li>
+<li>Prefix</li>
+<li>Suffix</li>
+<li>Tooltip</li>
+<li>Tab Name*</li>
+<li>Row*</li>
+<li>Column*</li>
+<li>Default Value</li>
+<li>Search Row</li>
+<li>Search Column</li>
+<li>Search Result Order</li>
+<li>Default Search Value</li>
+<li>Default Search Supporting Value</li>
+<li>Print Bookmark</li>
+<li>Integration Code</li>
+<li>Business Rule Name</li>
+<li>Data Display Name</li>
+<li>View</li>
+<li>Update</li>
+<li>Cascading Dropdown</li>
+<li>Cascading Child</li>
+<li>Parent Dropdown Field</li>
+<li>Cascade Grid Field</li>
+<li>View of Grid Data</li>
+<li>Grid Row Unique</li>
+<li>Hide Grid Add New</li>
+<li>Hide Grid Add Existing</li>
+<li>Grid Parent Form</li>
+<li>Grid Parent Field</li>
+</ul>
 </li>
 <li><p>The next tab is actually called Tabs.  Tabs are required because they are used on Forms/Pages.  The Tabs tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Tab Tab Columns:</p>
-<p>A:  Form*</p>
-<p>B:  Name*</p>
-<p>C:  SortOrder*</p>
+<ul>
+<li>Form*</li>
+<li>Name*</li>
+<li>SortOrder*</li>
+</ul>
 </li>
 <li><p>The Dropdowns tab is used to configure static or form dropdowns.  They are only required if there are dropdown controls.  The Dropdowns tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Dropdown Tab Columns:</p>
-<p>A:  Form*</p>
-<p>B:  Name*</p>
-<p>C:  Type*</p>
-<p>D:  Data</p>
-<p>E:  Filter</p>
+<ul>
+<li>Form*</li>
+<li>Name*</li>
+<li>Type*</li>
+<li>Data</li>
+<li>Filter</li>
+</ul>
 </li>
 <li><p>The Webhooks tab is used to build out any API calls you would like made after a specific event occurs.  The Webhooks tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Webhooks Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Tags*</p>
-<p>C:  Description*</p>
-<p>D:  URL*</p>
-<p>E:  Await Return</p>
-<p>F:  Form-Event</p>
+<ul>
+<li>Name*</li>
+<li>Tags*</li>
+<li>Description*</li>
+<li>URL*</li>
+<li>Await Return</li>
+<li>Form-Event</li>
+</ul>
 </li>
 <li><p>The Rules tab is used for any custom rules or error messages you would like to provide.  The tab is not required.  The Rules tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Rules Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Tags*</p>
-<p>C:  Description*</p>
-<p>D:  Expression*</p>
-<p>E:  Rule Type*</p>
-<p>F:  Error Message*</p>
+<ul>
+<li>Name*</li>
+<li>Tags*</li>
+<li>Description*</li>
+<li>Expression*</li>
+<li>Rule Type*</li>
+<li>Error Message*</li>
+</ul>
 </li>
 <li><p>The Grids tab is used for create grids out of a specific forms data and then be used on a Control/Field.  The tab is not required.  The Grids tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Grids Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Description*</p>
-<p>C:  Tags*</p>
-<p>D:  Form*</p>
-<p>E:  Compact</p>
-<p>F:  Header Visible</p>
-<p>G:  Items Per Page</p>
-<p>H:  Display Format {{Field Name}}*</p>
+<ul>
+<li>Name*</li>
+<li>Description*</li>
+<li>Tags*</li>
+<li>Form*</li>
+<li>Compact</li>
+<li>Header Visible</li>
+<li>Items Per Page</li>
+<li>Display Format {{Field Name}}*</li>
+</ul>
 </li>
 <li><p>The Grid Columns tab is used on by a Grid to determine what data elements from the supplied form you want shown in the grid.  The tab is not required unless you have a Grid.  The Grid Columns tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>Grid Columns Tab Columns:</p>
-<p>A:  Grid*</p>
-<p>B:  Field Name*</p>
-<p>C:  Collapsible*</p>
-<p>D:  Resizable*</p>
-<p>E:  Padded*</p>
-<p>F:  Min Width*</p>
-<p>G:  Max Width*</p>
+<ul>
+<li>Grid*</li>
+<li>Field Name*</li>
+<li>Collapsible*</li>
+<li>Resizable*</li>
+<li>Padded*</li>
+<li>Min Width*</li>
+<li>Max Width*</li>
+</ul>
 </li>
 <li><p>The API Keys tab is used when you want to call our API to update data from a different application.  The tab is not required.  The API Keys tab must contain the following columns and make them bold if possible.  Anything with an asterisk is required from the user.  Also, tags are seperated by semicolons.</p>
 <p>API Keys Tab Columns:</p>
-<p>A:  Name*</p>
-<p>B:  Key*</p>
-<p>C:  Expiration Date*</p>
-<p>D:  Read Only*</p>
-<p>E:  Forms*</p>
+<ul>
+<li>Name*</li>
+<li>Key*</li>
+<li>Expiration Date*</li>
+<li>Read Only*</li>
+<li>Forms*</li>
+</ul>
 </li>
 </ol>
 
