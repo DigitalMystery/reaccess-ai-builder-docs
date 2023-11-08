@@ -2,13 +2,12 @@
 
 Create a new tab in an Excel document for each item below and include the columns.
 
-Tab: Application
+### Application
 
     | Name | HomePageContent | Tags | Description |
     | ---- | --------------- | ---- | ----------- |
 
-
-Tab: Form
+### Form
 
     | Name | Scope | Tags | Description |
     | ---- | ----- | ---- | ----------- |
